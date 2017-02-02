@@ -2,6 +2,9 @@
 
 //Require https module
 const https = require('https');
+//Require http module for status codes 
+const http = require('http');
+
 
 //Print Error Messages
 function printError(error) {console.error(error.message);

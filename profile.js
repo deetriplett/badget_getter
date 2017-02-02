@@ -37,6 +37,14 @@ function get(username) {
                             printError(error);
                           }
                           });
+                              
+   //Users access get method for get(username) function 
+module.exports.get = get;                             
+                              
+                              
+                              
+                              
+                              
                           
                           } else {
                             const msg = 'There was an error getting Profile for ${username} (${response.statusCode})';
